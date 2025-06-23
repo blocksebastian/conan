@@ -145,6 +145,13 @@ compiler:
         libcxx: [libstdc++, libc++]
         cppstd: [null, 98, gnu98, 11, gnu11, 14, gnu14, 17, gnu17, 20, gnu20, 23, gnu23, 26, gnu26]
         cstd: [null, 99, gnu99, 11, gnu11, 17, gnu17, 23, gnu23]
+    tiarmclang:
+        version: ["3.2", "4.0"]
+        libcxx: [libc++]
+        cppstd: [null, 98, gnu98, 11, gnu11, 14, gnu14, 17, gnu17]
+        cstd: [null, 99, gnu99, 11, gnu11, 17, gnu17]
+        runtime: [null, static, dynamic]
+        runtime_type: [null, Debug, Release]
     intel-cc:
         version: ["2021.1", "2021.2", "2021.3", "2021.4", "2022.1", "2022.2",
                   "2022.3", "2023.0", "2023.1", "2023.2", "2024.0", "2024.1",
